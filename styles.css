@@ -1,5 +1,5 @@
 body {
-    background-color: #fffbf7;
+    background-color: #45c8d191;
 }
 
 h1 {
@@ -88,4 +88,204 @@ li {
     padding-bottom: 12px;
     border: 0;
     border-radius: 5px;
+}
+
+.publish {
+    flex: 1;
+  }
+  
+  .publish h3 {
+    font-family: "Alegreya", serif;
+    font-size: 40px;
+    line-height: 48px;
+    color: #025157;
+  }
+  
+  .publish > p {
+    font-size: 16px;
+    color: #343434;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  .publish > form {
+    display: flex;
+  }
+  
+  .publish > form p {
+    color: #025157;
+    margin-right: 18px;
+  }
+  .promo {
+    display: flex;
+    width: 70%;
+    margin: 100px  auto;
+    align-items: center;
+  }
+  .explanatory-video {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .explanatory-video img {
+    width: 120px;
+    margin-top: 10px;
+  }
+  .fixed-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #45c8d191;
+  }
+  main {
+    margin-top: 285px;
+    text-align: center;
+  }
+  .prework1 {
+    background-color: #a1d683;
+    padding: 5% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.prework1 .Fondo-verde {
+    flex: 2;
+    padding-right: 100px;
+}
+
+.prework1 .Fondo-verde h2 {
+    font-family: "Alegreya", serif;
+    font-size: 51px;
+    line-height: 61px;
+    color: #025157;
+}
+
+.prework1 .Fondo-verde p {
+    color: #343434;
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+    font-family: "Open Sans", sans-serif;
+}
+
+.prework1 .Fondo-verde button {
+    font-size: 14px;
+    padding: 12px 12px 6px 12px;
+    border-radius: 8px;
+    height: 45px;
+    font-weight: 600;
+    margin-left: 0;
+    margin-bottom: 1em;
+}
+
+.prework1 .Fondo-verde img {
+    width: 600px;
+    margin: auto;
+}
+
+.prework1 .tarjeta-slider {
+    flex: 1;
+
+}
+
+.prework1 .tarjeta-slider .carousel-indicators {
+    position: unset;
+}
+
+.prework1 .tarjeta-slider .card {
+    max-width: 400px;
+    width: 130%;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.prework1 .tarjeta-slider .card .card-media img {
+    width: 100%;
+    max-height: 30vw;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+
+.prework1 .tarjeta-slider .card .card-media figure {
+    margin-top: 0;
+}
+
+.prework1 .tarjeta-slider .card .card-media {
+    position: relative;
+}
+
+.prework1 .tarjeta-slider .card .card-media .company {
+    position: absolute;
+    bottom: -20px;
+    right: 20px;
+    width: 100px;
+    height: 100px;
+    background-color: #f9da73;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.prework1 .tarjeta-slider .card .card-media .company img {
+    max-width: 75%;
+}
+
+.prework1 .tarjeta-slider .card .card-body,
+.prework1 .tarjeta-slider .card .card-footer {
+    padding: 25px;
+}
+
+.prework1 .tarjeta-slider .card .card-body h4 {
+    color: #025157;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 20px;
+    margin-bottom: 12px;
+    font-family: "Open Sans", sans-serif;
+}
+
+.prework1 .tarjeta-slider .card .card-body h3 {
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 20px;
+    font-family: "Open Sans", sans-serif;
+}
+
+.prework1 .tarjeta-slider .card .card-body .results {
+    display: flex;
+    align-items: center;
+    color: #828282;
+}
+
+.prework1 .tarjeta-slider .card .card-body .results img {
+    width: 26px;
+    margin-right: 20px;
+}
+
+.prework1 .tarjeta-slider .card .card-body .results p {
+    margin-top: 0;
+    font-family: "Open Sans", sans-serif;
+}
+
+.prework1 .tarjeta-slider .card .card-footer {
+    margin-bottom: 20px;
+    background-color: unset;
+    border-top: unset;
+}
+
+.prework1 .tarjeta-slider .card .card-footer button {
+    display: block;
+    margin-left: 0;
+    border-radius: 5px;
+    font-size: 13;
+    font-weight: 600;
+    padding: 12px 20px;
+    width: 100%;
+    font-family: "Open Sans", sans-serif;
 }
